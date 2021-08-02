@@ -1,0 +1,388 @@
+aoi: Act On Instinct
+	VolumeModifier: 0.65
+airstrik: Air Strike
+	VolumeModifier: 0.9
+ccthang: C&C Thang
+	VolumeModifier: 0.7
+ind2: Canyon Chase (Industrial 2)
+	VolumeModifier: 0.7
+heavyg: Demolition (Heavy Gear)
+	VolumeModifier: 0.7
+fwp: Fight Win Prevail
+	VolumeModifier: 0.7
+warfare: Full Stop (Warfare)
+	VolumeModifier: 0.6
+win1: Great Shot!
+	Hidden: true
+	VolumeModifier: 0.7
+win2: Great Shot! (SFX)
+	Filename: win1
+	Extension: var
+	Hidden: true
+iam: I Am - Times (Credits)
+	VolumeModifier: 0.6
+ind: Industrial
+	VolumeModifier: 0.65
+linefire: In The Line Of Fire
+	VolumeModifier: 0.7
+trouble: In Trouble
+	VolumeModifier: 0.65
+justdoit: Just Do It Up
+	VolumeModifier: 0.7
+justdoit2: Just Do It Up (SFX)
+	Filename: justdoit
+	Extension: var
+	VolumeModifier: 0.7
+jdi_v2: Just Do It Up 2 (Take 'Em Out)
+	VolumeModifier: 0.65
+#map1: Map Theme
+#	Hidden: true
+#	VolumeModifier: 0.7
+march: March To Doom
+	VolumeModifier: 0.7
+nod_map1: Nod Map Theme
+	Hidden: true
+nod_win1: Nod Win Theme
+	Hidden: true
+	VolumeModifier: 0.9
+nomercy: No Mercy
+	VolumeModifier: 0.7
+nomercy2: No Mercy (SFX)
+	Filename: nomercy
+	Extension: var
+	VolumeModifier: 0.7
+otp: On The Prowl
+	VolumeModifier: 0.7
+outtakes: Outtakes (Censored)
+	VolumeModifier: 0.65
+prp: Prepare For Battle
+	VolumeModifier: 0.6
+radio: Radio
+	VolumeModifier: 0.7
+rain: Rain In The Night
+	VolumeModifier: 0.7
+target: Target (Mechanical Man)
+	VolumeModifier: 0.7
+j1: Untamed Land (Jungle)
+	VolumeModifier: 0.7
+valkyrie: Ride Of The Valkyries
+	Hidden: true
+stopthem: We Will Stop Them (Deception)
+	VolumeModifier: 0.7
+deception: We Will Stop Them (SFX)
+	Filename: stopthem
+	Extension: var
+	VolumeModifier: 0.7
+aoi2: Act On Instinct (SFX)
+	Filename: aoi
+	Extension: var
+befeared: To Be Feared
+	VolumeModifier: 0.65
+befeared2: To Be Feared (SFX)
+	Filename: befeared
+	Extension: var
+die: Die
+	VolumeModifier: 0.6
+heart: Heartbreak
+	Extension: var
+trouble2: In Trouble (SFX)
+	Filename: trouble
+	Extension: var
+rout: Reaching Out
+	Extension: var
+
+# Covert Operations tracks
+80mx226m: C&C 80's Mix
+crep226m: Creeping Upon
+	VolumeModifier: 0.9
+chrg226m: Depth Charge
+	VolumeModifier: 0.9
+dril226m: Drill
+	VolumeModifier: 0.7
+dron226m: Drone
+	VolumeModifier: 0.9
+fist226m: Iron Fist
+	VolumeModifier: 0.85
+recn226m: Recon
+	VolumeModifier: 0.8
+voic226m: Voice Rhythm
+	VolumeModifier: 0.8
+
+####################################################################################################
+#		RA
+####################################################################################################
+
+await_r: Await
+bigf226m: Bigfoot
+crus226m: Crush
+dense_r: Dense
+fac1226m: Face to the Enemy 1
+fac2226m: Face to the Enemy 2
+fogger1a: Fogger
+hell226m: Hell March
+mud1a: Mud
+radio2: Radio 2
+credits: Reload Fire
+rollout: Roll Out
+run1226m: Run (For Your Life)
+smsh226m: Smash
+snake: Snake
+terminat: Terminate
+tren226m: Trenches
+twin: Twin Cannon
+vector1a: Vector
+work226m: Workmen
+score: Militant Force
+
+# Counterstrike tracks
+araziod: Arazoid
+backstab: Backstab
+chaos2: Chaos
+shut_it: Shut It
+2nd_hand: The Second Hand
+twinmix1: Twin Cannon (Remix)
+under3: Underlying Thoughts
+vr2: Voice Rhythm 2
+
+# Aftermath tracks
+await: Afterlife (Await)
+bog: Bog
+float_v2: Floating
+gloom: Gloom
+grndwire: Groundwire
+rpt: Running Through Pipes
+search: The Search
+traction: Traction
+wastelnd: Wasteland
+
+####################################################################################################
+#		2100
+####################################################################################################
+
+2100_1: Warzone 2100 Theme 1
+2100_2: Warzone 2100 Theme 2
+2100_3: Warzone 2100 Theme 3
+
+####################################################################################################
+#		SC TERRAN
+####################################################################################################
+
+sc_t1: Terran Theme 1
+sc_t2: Terran Theme 2
+sc_t3: Terran Theme 3
+
+####################################################################################################
+#		SC PROTOSS
+####################################################################################################
+
+sc_p1: Protoss Theme 1
+sc_p2: Protoss Theme 2
+sc_p3: Protoss Theme 3
+
+####################################################################################################
+#		SC ZERG
+####################################################################################################
+
+sc_z1: Zerg Theme 1
+sc_z2: Zerg Theme 2
+sc_z3: Zerg Theme 3
+
+####################################################################################################
+#		CITY
+####################################################################################################
+
+city_village: Village Theme
+city_town: Town Theme
+city_city: City Theme
+city_capital: Capital Theme
+city_metropolis: Metropolis Theme
+city_megalopolis: Megalopolis Theme
+
+####################################################################################################
+#		RA2
+####################################################################################################
+
+200meter: 200 Meters
+	Extension: wav
+blowitup: Blow it Up
+	Extension: wav
+burn: Burn
+	Extension: wav
+destroy: Destroy
+	Extension: wav
+eaglehun: Eagle Hunter
+	Extension: wav
+fortific: Fortification
+	Extension: wav
+grinder: Grinder
+	Extension: wav
+hm2: Hell March 2
+	Extension: wav
+indeep: In Deep
+	Extension: wav
+industro: Industrofunk
+	Extension: wav
+jank: Jank
+	Extension: wav
+motorize: Motorized
+	Extension: wav
+power: Power
+	Extension: wav
+ra2-opt: RA2 Credits
+	Extension: wav
+ra2-sco: Militant Force 2
+	Extension: wav
+tension: Tension
+	Extension: wav
+
+#Yuri Revenge
+
+brainfre: Brain Freeze
+	Extension: wav
+bully: Bully Kit
+	Extension: wav
+deceiver: Deceiver
+	Extension: wav
+defend: Defend the Base
+	Extension: wav
+drok: Drok
+	Extension: wav
+optionx: YR Credits
+	Extension: wav
+phatatta: Phat Attack
+	Extension: wav
+scorex: YR Score
+	Extension: wav
+tactics: Tactics
+	Extension: wav
+trancelv: Trance L. Vania
+	Extension: wav
+
+####################################################################################################
+#		Renegade
+####################################################################################################
+
+cncrcnc: Command & Conquer
+cncrpfy: Got a Present for Ya
+cncrsnipe: Sniper
+cncracton: Act on Instinct (Renegade)
+cncrstomp: Stomp
+cncronyf: On Your Feet
+cncrsneak: Sneak Attack
+cncrmovit: Move It
+cncdogfig: Dogfight
+cncrpctir: Packing Iron
+cncrindam: Industrial Ambient
+cncrbeach: Beach
+cncrfgwpr: Fight Win Prevail (Renegade)
+cncrammoc: Ammo Cup
+
+####################################################################################################
+#		Tiberian Sun
+####################################################################################################
+
+approach: Approach
+defense: The Defense
+duskhour: Dusk Hour
+flurry: Flurry
+gloom: Gloom
+heroism: Heroism
+infrared: Infrared
+lonetrop: Lone Trooper
+madrap: Mad Rap
+mutants: Mutants
+nodcrush: Nod Crush
+pharotek: Pharotek
+redsky: Red Sky
+tsscore: TS Score
+scout: Scouting
+storm: Storm
+timebomb: Timebomb
+valves1b: Valves
+whatlurk: What Lurks
+#maps: Map Selection
+#	Hidden: true
+#Firestorm
+dmachine: Deploy Machines
+elusive: Elusive
+hacker: Hacker
+infiltra: Infiltration
+kmachine: Killing Machine
+linkup: Link Up
+rainnite: Rain In The Night 2
+slavesys: Slave To The System
+#Bonus tracks
+stomp: Stomp
+initiate: Initiate
+
+####################################################################################################
+#		Generals
+####################################################################################################
+
+CHI_01: China Theme 1
+CHI_02: China Theme 2
+CHI_03: China Theme 3
+CHI_04: China Theme 4
+CHI_05: China Theme 5
+CHI_06: China Theme 6
+CHI_07: China Theme 7
+CHI_08: China Theme 8
+CHI_09: China Theme 9
+CHI_10: China Theme 10
+CHI_11: China Theme 11
+GLA_01: GLA Theme 1
+GLA_02: GLA Theme 2
+GLA_03: GLA Theme 3
+GLA_04: GLA Theme 4
+GLA_05: GLA Theme 5
+GLA_06: GLA Theme 6
+GLA_07: GLA Theme 7
+GLA_08: GLA Theme 8
+GLA_09: GLA Theme 9
+GLA_10: GLA Theme 10
+GLA_11: GLA Theme 11
+USA_01: USA Theme 1
+USA_02: USA Theme 2
+USA_03: USA Theme 3
+USA_04: USA Theme 4
+USA_05: USA Theme 5
+USA_06: USA Theme 6
+USA_07: USA Theme 7
+USA_08: USA Theme 8
+USA_09: USA Theme 9
+USA_10: USA Theme 10
+USA_11: USA Theme 11
+
+####################################################################################################
+#		Star Wars
+####################################################################################################
+
+swwin1: SW Mos Eisley Cantina Band
+swrage: SW Imperial March Rage Mix
+swexecutor: SW Aboard the Executor
+swacrstars: SW Across the Stars
+swbatlhoth: SW The Battle of Hoth
+swcruiserp: SW Cruiser Pursuit
+swduelfate: SW Duel of the Fates
+swthrnroom: SW Throne Room
+swimpmarch: SW Imperial March
+swjedirock: SW Jedi Rocks
+swleviathn: SW Imperial March Leviathan Mix
+swmetmarch: SW Metallica March
+swewoks: SW Parade of the Ewoks
+swabridon: SW Redemption at Abridon
+swcompil: SW Star Wars Compilation
+swfinale: SW Star Wars Finale
+swintro: SW Star Wars Intro
+swclonwars: SW The Clone Wars
+swtheforce: SW The Force
+swemproom: SW The Emperor's Throne Room
+swyoda: SW Yoda's Theme
+
+####################################################################################################
+# Star Wars (Bonus Songs, not appear in Cnc Meets Star Wars)
+####################################################################################################
+
+swdroidinv: SW Droid Invasion
+swlaptinek: SW Lapti Nek
+swjawas: SW The Dune of Sea of Tatooine

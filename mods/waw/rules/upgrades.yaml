@@ -1,0 +1,218 @@
+testupgrade:
+	Inherits: ^upgrade.template
+	Tooltip:
+		Name: Scrap Ammo
+	Buildable:
+		BuildPaletteOrder: 200
+		Queue: Upgrade
+		Description: Thanks to reusable, light ammo from scrap yards, units with machineguns get an overall buff.\nPros:\n - -20% RoF for minigunners and scrap buggys\n - -$100 cost for minigunners and scrap buggys\nCons:\n - -200 damage dealt by minigunners and scrap buggys.
+		Prerequisites: dome, ~!scrapammo, ~upgrade.turkey
+	Valued:
+		Cost: 1000
+	RenderSprites:
+		Image: upgrade.scrammo
+	ProvidesPrerequisite:
+		Prerequisite: scrapammo
+
+economicupgrade1:
+    Inherits: ^upgrade.template
+    Tooltip:
+		Name: Economic Upgrade 
+	Buildable: 
+		BuildPaletteOrder: 880
+		Queue: Upgrade
+		Description: Allows the construction of Oil Derricks that can be upgraded.\nPros:\n - Allows 10 oil derricks to be built.\nCons:\n - None :)
+		Prerequisites: ~musenabled
+        BuildDuration: 200
+	Valued:
+		Cost: 2000
+	RenderSprites:
+		Image: upgrade.scrammo
+	ProvidesPrerequisite:
+		Prerequisite: ecoupgdone
+        
+economicupgrade2:
+    Inherits: ^upgrade.template
+    Tooltip:
+		Name: Economic Upgrade 2
+	Buildable: 
+		BuildPaletteOrder: 890
+		Queue: Upgrade
+		Description: Allows the construction of Bigger Oil Derricks that can be upgraded.\nPros:\n - Allows 5 big oil derricks to be built.\nCons:\n - None :)
+		Prerequisites: ecoupgdone, ~musenabled
+        BuildDuration: 400
+	Valued:
+		Cost: 5000
+	RenderSprites:
+		Image: upgrade.scrammo
+	ProvidesPrerequisite:
+		Prerequisite: ecoupgdtwo
+        
+x10upgradeA:
+    Inherits: ^upgrade.template
+    Tooltip:
+		Name: X10 Multiplier
+	Buildable: 
+		BuildPaletteOrder: 900
+		Queue: Upgrade
+		Description: Super Powerful Upgrade at quite an expensive cost.\nPros:\n - Gives all units +10% Damage, Range, and reduces RoF by 10%.\nCons:\n - None :)
+		Prerequisites: ~musenabled
+        BuildDuration: 800
+	Valued:
+		Cost: 8000
+	RenderSprites:
+		Image: upgrade.scrammo
+	ProvidesPrerequisite:
+		Prerequisite: x10upgrade
+        
+x50upgradeA:
+    Inherits: ^upgrade.template
+    Tooltip:
+		Name: X50 Multiplier
+	Buildable: 
+		BuildPaletteOrder: 910
+		Queue: Upgrade
+		Description: Super Powerful Upgrade at quite an expensive cost.\nPros:\n - Gives all units +50% Damage, Range, +10% Speed, and reduces RoF by 25%.\nCons:\n - None :)
+		Prerequisites: x10upgrade, ~musenabled
+        BuildDuration: 800
+	Valued:
+		Cost: 30000
+	RenderSprites:
+		Image: upgrade.scrammo
+	ProvidesPrerequisite:
+		Prerequisite: x50upgrade
+        
+x100upgradeA:
+    Inherits: ^upgrade.template
+    Tooltip:
+		Name: X100 Multiplier
+	Buildable: 
+		BuildPaletteOrder: 920
+		Queue: Upgrade
+		Description: Super Powerful Upgrade at quite an expensive cost.\nPros:\n - Gives all units +100% Damage, Range, +25% Speed, and reduces RoF by 40%.\nCons:\n - None :)
+		Prerequisites: x50upgrade, ~musenabled
+        BuildDuration: 800
+	Valued:
+		Cost: 100000
+	RenderSprites:
+		Image: upgrade.scrammo
+	ProvidesPrerequisite:
+		Prerequisite: x100upgrade
+        
+UltimateupgradeA:
+    Inherits: ^upgrade.template
+    Tooltip:
+		Name: ULTIMATE Multiplier
+	Buildable: 
+		BuildPaletteOrder: 930
+		Queue: Upgrade
+		Description: Upgrades everything by an insane ammount at the cost of godly ammounts of money.\nPros:\n - Gives all units +200% Damage, Range, +40% Speed, and reduces RoF by 80%.\nCons:\n - None :)
+		Prerequisites: x100upgrade, ~musenabled
+        BuildDuration: 800
+	Valued:
+		Cost: 300000
+	RenderSprites:
+		Image: upgrade.scrammo
+	ProvidesPrerequisite:
+		Prerequisite: ultiupgrade
+        
+OilDerrickUpgrade1:
+	Tooltip:
+		Name: Faster Drilling
+	Buildable:
+		BuildPaletteOrder: 10
+		Queue: Upgrade.OilDerrick
+		Description: Increases the speed of the oil derrick. (5 seconds --> 3 seconds)
+		Prerequisites: ~!OilDerrickUpgrade2
+	Valued:
+		Cost: 350
+	RenderSprites:
+		Image: upgrade.scrammo
+	Interactable:
+	AlwaysVisible:
+	KillsSelf:
+		RemoveInstead: true
+        
+OilDerrickUpgrade2:
+	Tooltip:
+		Name: More money
+	Buildable:
+		BuildPaletteOrder: 20
+		Queue: Upgrade.OilDerrick
+		Description: Increases the money made from the oil derrick. ($15 --> $30)
+		Prerequisites: ~!OilDerrickUpgrade1
+	Valued:
+		Cost: 425
+	RenderSprites:
+		Image: upgrade.scrammo
+	Interactable:
+	AlwaysVisible:
+	KillsSelf:
+		RemoveInstead: true
+
+OilDerrickUpgrade3:
+	Tooltip:
+		Name: Reinforcement
+	Buildable:
+		BuildPaletteOrder: 10
+		Queue: Upgrade.OilDerrickBig
+		Description: Increases the Damage Resistance of the oil derrick. (100% Damage Taken --> 75% Damage Taken)
+		Prerequisites: ~!OilDerrickUpgrade5, ~!OilDerrickUpgrade4
+	Valued:
+		Cost: 500
+	RenderSprites:
+		Image: upgrade.scrammo
+	Interactable:
+	AlwaysVisible:
+	KillsSelf:
+		RemoveInstead: true
+        
+OilDerrickUpgrade4:
+	Tooltip:
+		Name: More money
+	Buildable:
+		BuildPaletteOrder: 20
+		Queue: Upgrade.OilDerrickBig
+		Description: Increases the money made from the oil derrick. ($100 --> $150)
+		Prerequisites: ~!OilDerrickUpgrade5, ~!OilDerrickUpgrade3
+	Valued:
+		Cost: 750
+	RenderSprites:
+		Image: upgrade.scrammo
+	Interactable:
+	AlwaysVisible:
+	KillsSelf:
+		RemoveInstead: true
+        
+OilDerrickUpgrade5:
+	Tooltip:
+		Name: Faster Drilling
+	Buildable:
+		BuildPaletteOrder: 30
+		Queue: Upgrade.OilDerrickBig
+		Description: Increases the speed of the oil derrick. (10 seconds --> 6.5 seconds)
+		Prerequisites: ~!OilDerrickUpgrade3, ~!OilDerrickUpgrade4
+	Valued:
+		Cost: 800
+	RenderSprites:
+		Image: upgrade.scrammo
+	Interactable:
+	AlwaysVisible:
+	KillsSelf:
+		RemoveInstead: true
+        
+Pyrotechnics:
+	Inherits: ^upgrade.template
+	Tooltip:
+		Name: Pyrotechnics
+	Buildable:
+		BuildPaletteOrder: 210
+		Queue: Upgrade
+		Description: Burn! BURN IT ALL!!!\nPros:\n +10% Fire damage\nCons:\n 100% Damage taken --> 120% Damage Taken for Fire-type units.
+		Prerequisites: dome, ~!pyrotechnics, ~upgrade.ukraine
+	Valued:
+		Cost: 1000
+	RenderSprites:
+		Image: upgrade.scrammo
+	ProvidesPrerequisite:
+		Prerequisite: pyrotechnics
