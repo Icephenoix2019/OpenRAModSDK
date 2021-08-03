@@ -17,3 +17,16 @@ To launch your project from the development environment you must first compile t
 The `example` mod included in this repository provides the bare minimum structure to launch to the in-game main menu for the sole purpose of demonstrating the SDK.  See [Getting Started](https://github.com/OpenRA/OpenRAModTemplate/wiki/Getting-Started) on the Wiki for instructions on how to adapt this template for your own projects.  For common questions, please see the [FAQ](https://github.com/OpenRA/OpenRAModSDK/wiki/FAQ).  See [Updating to a new SDK or Engine version](https://github.com/OpenRA/OpenRAModSDK/wiki/Updating-to-a-new-SDK-or-Engine-version) for a guide on updating your mod a newer OpenRA release.
 
 The OpenRA engine and SDK scripts are made available under the [GPLv3](https://github.com/OpenRA/OpenRA/blob/bleed/COPYING) license, and any executable code developed by a mod and loaded by the engine (i.e. custom mod DLLs, lua scripts) must be released under a compatible license.  Your mod data files (artwork, sound files, yaml, etc) are not part of your mod's source code, so your are free to distribute these assets under different terms (e.g. allowing redistribution in unmodified form, but not for use in other works).
+
+**TO DO FOR FIRST RELEASE:**
+Finish up adding the first GDI and NOD Subfactions (Forgotten is already done)
+Fix some more bugs
+Polish up some icons
+
+**Q/A:**
+Q: Will you be adding the Scrin?
+A: No, only because CA spend their hard time with adding the scrin in themselves, so even if they said yes I still wouldn't put them in
+
+Q: What are your plans?
+A: This is kinda a long one but I would like to add some CNC3 and CNC4 stuff into the mod (Which I am starting on CNC3), and I would love
+to get some tech buildings but the person doing the great TS/RA2 conversions hasn't updated them yet.
